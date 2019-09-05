@@ -1,0 +1,52 @@
+/* Gjelder hovedsaklig hoveddelen på index-siden */
+
+#idegrunnlag h1 {
+    font-size: 1.6rem;
+    color: #1780e8;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+
+#idegrunnlag p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-align: center;
+
+}
+
+#forside-bilde {
+    width: 100%;
+
+}
+
+#kjernesaker {
+    margin: 2rem;
+}
+
+#kjernesaker article {
+    display: flex;
+    width: 100.0rem;
+    margin: auto;
+}
+
+#kjernesaker h1 {
+    font-size: 1.6rem;
+    color: #1780e8;
+    line-height: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#kjernesaker ul {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-align: left;
+    align-self: auto;
+    width: 1fr;
+}
+
+#kjernesaker li {
+    list-style-type: none;
+}
