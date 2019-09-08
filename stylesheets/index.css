@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: Raleway, sans-serif;
-    border: 0.05rem solid black;
+    /*border: 0.05rem solid black;*/
 }
 
 /* Body på hjemmesiden */
@@ -29,6 +29,9 @@ header nav {
     display: flex;
     width: 100.0rem;
     margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
 }
 
 /* Teksten/linkene i navigasjonen */
@@ -48,22 +51,28 @@ a:hover {
 /* Logo havner til venstre, og dytter resten til høyre */
 header nav a.logo {
     margin-right: auto;
+    height: 12rem;
+}
+
+header nav a.logo img {
+    height: 100%;
 }
 
 /* Hovedinnholdet */
 main {
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
     padding: 0.5rem 2 rem;
     height: 200vh;
 }
 
 /* Footer, skal være helt i bånn på siden. */
 footer {
+    margin-top: 10rem;
     background-color: #1780e8;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     left: 0;
     width: 100%;
@@ -72,8 +81,9 @@ footer {
 footer #footer-flex {
     display: flex;
     width: 100%;
-    margin: auto;
+    margin: auto; 
 }
+
 
 footer #footer-flex article {
     color: #fff;
