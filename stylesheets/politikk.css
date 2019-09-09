@@ -1,0 +1,21 @@
+.innhold {
+    margin: 1rem;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.teksten {
+    float: left;
+    width: 50%;
+}
+
+.bilde {
+    width: 50%;
+    float: right;
+    padding: 4rem;
+}
+
+.bilde img {
+    width: 100%;
+}

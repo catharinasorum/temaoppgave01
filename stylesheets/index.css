@@ -70,7 +70,7 @@ main {
 
 /* Footer, skal være helt i bånn på siden. */
 footer {
-    margin-top: 10rem;
+    margin-top: 30rem;
     background-color: #1780e8;
     /*position: fixed;*/
     bottom: 0;
@@ -91,4 +91,8 @@ footer #footer-flex article {
     padding: 1.8rem;
     width: 25%;
     line-height: 2rem;
+}
+
+footer p {
+
 }
