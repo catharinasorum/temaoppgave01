@@ -1,0 +1,52 @@
+/* CSS for de andre sidene, bortsett fra fremsiden. */
+main h1 {
+    font-size: 1.8rem;
+    color: #1780e8;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+main h2 {
+    font-size: 1.6rem;
+    color: #1780e8;
+    text-align: left;
+    padding: 1.2rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+
+main h5 {
+    font-size: 1.4rem;
+    color: #1780e8;
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+main p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+main p .pp {
+    color: #1780e8;
+}
+
+main a {
+    color: #1780e8;
+    text-decoration: none;
+}
+
+main .aktuelt {
+    padding: 1rem;
+}
+
+main .aktuelt img {
+    width: 19%;
+    float: left;
+    padding: 1rem;
+}
+

@@ -1,6 +1,6 @@
 /* Gjelder hovedsaklig hoveddelen på index-siden */
 
-#idegrunnlag h1 {
+.idegrunnlag h1 {
     font-size: 1.8rem;
     color: #1780e8;
     text-align: center;
@@ -9,21 +9,21 @@
 }
 
 
-#idegrunnlag p {
+.idegrunnlag p {
     font-size: 1.4rem;
     line-height: 2.5rem;
     text-align: center;
 
 }
 
-#kjernesaker {
+.kjernesaker {
     margin: 1rem;
     display: flex;
     width: 100%;
     margin: auto;
 }
 
-#kjernesaker-overskrift {
+.kjernesaker-overskrift {
     font-size: 1.8rem;
     color: #1780e8;
     line-height: 3rem;
@@ -32,17 +32,17 @@
     margin-top: 2rem;
 }
 
-#kjernesaker .forside-bilde {
+.kjernesaker .forside-bilde {
     width: 100%;
     float: left;
 }
 
-#kjernesaker .forside-bilde img {
+.kjernesaker .forside-bilde img {
     width: 100%;
 }
 
 
-#kjernesaker ul {
+.kjernesaker ul {
     font-size: 1.4rem;
     line-height: 2.5rem;
     text-align: left;
@@ -51,35 +51,34 @@
     padding: 1rem;
 }
 
-#kjernesaker li {
+.kjernesaker li {
     list-style-type: none;
     padding-bottom: 1rem;
 }
 
-#innholdsgrid {
+.innholdsgrid {
     display: grid;
-    grid-column-gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(25.0rem, 1fr));
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 2rem;
     margin-top: 5rem;
 }
 
-#innholdsgrid img {
+.innholdsgrid img {
     width: 100%;
 }
 
-#innholdsgrid h2 {
+.innholdsgrid h2 {
     font-size: 1.6rem;
     color: #1780e8;
     text-align: center;
     padding: 1.5rem;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
-#innholdsgrid p {
+.innholdsgrid p {
     font-size: 1.4rem;
     line-height: 2.5rem;
-    text-align: left;
 }
 
 button {
