@@ -1,4 +1,6 @@
 /* CSS for de andre sidene, bortsett fra fremsiden. */
+
+/* MAIN-elementer */
 main h1 {
     font-size: 1.8rem;
     color: #1780e8;
@@ -31,15 +33,18 @@ main p {
     padding: 2rem;
 }
 
+/* PP = Pensjonistpartiet */
 main p .pp {
     color: #1780e8;
 }
 
+/* Linker i Main-elementet */
 main a {
     color: #1780e8;
     text-decoration: none;
 }
 
+/* AKTUELT */
 main .aktuelt {
     padding: 1rem;
 }
@@ -50,3 +55,29 @@ main .aktuelt img {
     padding: 1rem;
 }
 
+#video {
+    margin: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* POLITIKK */
+
+.innhold-politikk {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+
+.bilde-politikk {
+    width: 200%;
+    float: right;
+    padding: 2rem;
+}
+
+.bilde-politikk img {
+    width: 150%;
+}

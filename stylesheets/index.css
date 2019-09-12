@@ -59,12 +59,11 @@ header nav a.logo img {
     height: 100%;
 }
 
-/* Hovedinnholdet */
+/* Hovedinnholdet. */
 main {
     margin: 8rem auto 10rem auto;
     width: 70%;
     padding: 0.5rem 2rem;
-    height: 200vh;
 }
 
 /* Footer, skal være helt i bånn på siden. */
@@ -77,6 +76,7 @@ footer {
     width: 100%;
 }
 
+/* Footer deles opp i en grid i tre deler (tre fr). */
 footer .footer-grid {
     display: grid;
     width: 100%;
@@ -89,6 +89,7 @@ footer .footer-grid {
     line-height: 2rem;
 }
 
+/* Styling av linkene i footer. */
 footer .footer-grid a {
     color: white;
     text-decoration: none;

@@ -1,5 +1,6 @@
 /* Gjelder hovedsaklig hoveddelen på index-siden */
 
+/* IDEGRUNNLAG */
 .idegrunnlag h1 {
     font-size: 1.8rem;
     color: #1780e8;
@@ -8,7 +9,6 @@
     line-height: 3rem;
 }
 
-
 .idegrunnlag p {
     font-size: 1.4rem;
     line-height: 2.5rem;
@@ -16,6 +16,7 @@
 
 }
 
+/* KJERNESAKER */
 .kjernesaker {
     margin: 1rem;
     display: flex;
@@ -32,6 +33,7 @@
     margin-top: 2rem;
 }
 
+/* Bildet skal holde seg til venstre */
 .kjernesaker .forside-bilde {
     width: 100%;
     float: left;
@@ -41,7 +43,7 @@
     width: 100%;
 }
 
-
+/* Listen */
 .kjernesaker ul {
     font-size: 1.4rem;
     line-height: 2.5rem;
@@ -51,11 +53,13 @@
     padding: 1rem;
 }
 
+/* Listeelementene */
 .kjernesaker li {
     list-style-type: none;
     padding-bottom: 1rem;
 }
 
+/* INNHOLDSGRID */
 .innholdsgrid {
     display: grid;
     gap: 3rem;
@@ -81,6 +85,7 @@
     line-height: 2.5rem;
 }
 
+/* Knappene neders på siden, som tar deg til "Partiprogrammet". */
 button {
     background-color: white;
     color: #1780e8;
@@ -92,6 +97,7 @@ button {
     text-transform: uppercase;
 }
 
+/* Når du holder over knappen */
 button:hover {
     background-color: #1780e8;
     color: white;
