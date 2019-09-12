@@ -1,6 +1,9 @@
 /* CSS for de andre sidene, bortsett fra fremsiden. */
 
+
+
 /* MAIN-elementer */
+
 main h1 {
     font-size: 1.8rem;
     color: #1780e8;
@@ -44,7 +47,10 @@ main a {
     text-decoration: none;
 }
 
+
+
 /* AKTUELT */
+
 main .aktuelt {
     padding: 1rem;
 }
@@ -55,11 +61,19 @@ main .aktuelt img {
     padding: 1rem;
 }
 
-#video {
-    margin: 2rem;
+
+
+/* PARTIPROGRAM */ 
+
+#video-pensjonistpartiet {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+#video-pensjonistpartiet video {
+    width: 560px;
+    height: 315px;
 }
 
 
